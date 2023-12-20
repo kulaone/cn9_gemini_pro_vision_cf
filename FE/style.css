@@ -1,0 +1,39 @@
+body {
+  background-color: #333; /* Dark but not black background */
+  color: white;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  text-align: center;
+  padding: 20px;
+}
+
+#displayArea {
+  display: flex;
+  justify-content: start;
+  align-items: flex-start;
+  margin-top: 20px;
+}
+
+#imageContainer, #responseContainer {
+  max-width: 40%;
+}
+
+#imagePreview {
+  max-height: 300px;
+  display: block; /* Ensures the image takes up space even when no image is loaded */
+}
+
+#responseContainer {
+  margin-left: 20px;
+}
+
+#responseText {
+  word-wrap: break-word;
+  text-align: left;
+}
+
+.loading {
+  color: #aaa;
+}
